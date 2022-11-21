@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: mcvt-comms-api
-Version: 0.1.0
-Summary: Communication APIs in Python
-Author-email: Jiachen Wang <jiachen.wang@uconn.edu>, Chuanyu Xue <xue.chuanyu@uconn.edu>, Murali Krishnan R <mrajase@purdue.edu>
-Description-Content-Type: text/x-rst
-
-# Python Communication API for MCVT DRDS
