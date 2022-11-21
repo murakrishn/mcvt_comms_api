@@ -1,0 +1,33 @@
+# Communication APIs of MCVT DRDS in Python
+#
+# Author:
+#   Jiachen Wang
+#   Chuanyu Xue
+#   Murali Krishnan R
+#
+# Date:
+#   11.16.2022
+#
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "mcvt_comms_api"
+description = "Communication APIs in Python"
+authors = [
+    {name = "Jiachen Wang", email="jiachen.wang@uconn.edu"},
+    {name = "Chuanyu Xue", email="xue.chuanyu@uconn.edu"},
+    {name = "Murali Krishnan R", email="mrajase@purdue.edu"},
+]
+license = {file = "LICENSE"}
+dynamic = ["version", "readme", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = {file = "VERSION.txt"}
+readme = {file = "README.md"}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mcvt_comms_api"]
